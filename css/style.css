@@ -631,11 +631,13 @@ body.fixed::before {
   background: #000;
   z-index: -1;
   transition: 300ms;
+  opacity: 0;
 }
 
 .portfolio__img:hover::before {
   z-index: 0;
   opacity: 0.8;
+  transition: 300ms;
 }
 
 .portfolio__img:hover .portfolio__links {
